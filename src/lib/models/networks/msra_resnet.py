@@ -278,3 +278,5 @@ def get_pose_net(num_layers, heads, head_conv):
   model = PoseResNet(block_class, layers, heads, head_conv=head_conv)
   model.init_weights(num_layers, pretrained=True)
   return model
+
+#test
